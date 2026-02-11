@@ -1,0 +1,24 @@
+python -m venv .venv
+
+.venv\Scripts\activate
+
+pip install streamlit scikit-learn pandas matplotlib openpyxl
+
+pip list
+
+streamlit run app.py
+
+
+Buat file requirements.txt berisi semua library project
+
+streamlit
+scikit-learn
+pandas
+matplotlib
+openpyxl
+
+
+lalu : pip install -r requirements.txt
+
+
+sudo ufw status

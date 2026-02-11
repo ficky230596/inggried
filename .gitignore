@@ -1,0 +1,31 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+bin/
+lib/
+share/
+pyvenv.cfg
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Streamit (jika ada folder config local)
+.streamlit/config.toml
+.streamlit/credentials.toml
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Data & Model (Opsional: aktifkan jika file data terlalu besar untuk GitHub)
+# *.csv
+# *.xlsx
+# *.pkl
+# *.h5
